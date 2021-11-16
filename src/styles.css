@@ -1,0 +1,31 @@
+body {
+  font-family: Inconsolata, sans-serif;
+  background: black;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
+    url("/img/Echelon%20Cache.png");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: top;
+}
+th {
+  text-align: left;
+  padding-right: 10px;
+}
+td {
+  padding-right: 10px;
+}
+a {
+  color: #def141;
+}
+a:visited {
+  color: rgb(148, 160, 44);
+}
+table tr:hover {
+  background: #def141;
+  color: black;
+}
+table tr:hover a {
+  background: #def141;
+  color: black;
+}
